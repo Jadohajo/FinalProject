@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+main {
+    flex: 2;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.tripInformation {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+p, h2 { 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dates { 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
